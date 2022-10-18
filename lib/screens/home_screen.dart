@@ -24,7 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
   ];
 
   List<String> league = [
-    "EPL",
+    "English Premiere League",
   ];
 
   Widget listIcon(int index) {
@@ -45,7 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
       },
       child: Container(
         height: 80.0,
-        width: 50.0,
+        width: 80.0,
         decoration: BoxDecoration(
           color: selectedIndex == index
               ? Theme.of(context).primaryColor
@@ -139,16 +139,16 @@ class _HomeScreenState extends State<HomeScreen> {
                                         });
                                       },
                                       child: Padding(
-                                        padding: const EdgeInsets.all(4.0),
+                                        padding: const EdgeInsets.all(1.0),
                                         child: Container(
-                                          width: 150.0,
+                                          width: 250.0,
                                           padding: const EdgeInsets.all(8.0),
                                           decoration: BoxDecoration(
                                             color: selectedIndex == index
                                                 ? Theme.of(context).primaryColor
                                                 : const Color(0xFFFFFFFF),
                                             borderRadius:
-                                                BorderRadius.circular(5.0),
+                                                BorderRadius.circular(8.0),
                                           ),
                                           child: Column(
                                             crossAxisAlignment:
@@ -157,7 +157,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                               Text(
                                                 league[index],
                                                 style: TextStyle(
-                                                  fontSize: 15.0,
+                                                  fontSize: 13.0,
                                                   fontWeight: FontWeight.w500,
                                                   color: selectedIndex == index
                                                       ? Theme.of(context)

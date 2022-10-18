@@ -1,6 +1,7 @@
 # footballteam
 
-A new Flutter project.
+this is application for team list of football club
+just change api if you need to see other league team
 
 ## Getting Started
 
@@ -14,3 +15,11 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+# Flutter pub get
+
+# flutter run
+
+# Rully Boriel
+
+# This simple project using MVVM
